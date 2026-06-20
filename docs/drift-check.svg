@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 640 257" width="640" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="80" rows="15"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 1042ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+3.167%{transform:translateY(-272px)}
+4.031%{transform:translateY(-544px)}
+100.000%{transform:translateY(-544px)}
+            }
+
+            #screen_view {
+                animation-duration: 1042ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               PowerShell colors based on https://en.wikipedia.org/wiki/ANSI_escape_code#Colors */
+            .foreground {fill: #cccccc;}
+            .background {fill: #0c0c0c;}
+            .color0 {fill: #0c0c0c;}
+            .color1 {fill: #c50f1f;}
+            .color2 {fill: #13a10e;}
+            .color3 {fill: #c19c00;}
+            .color4 {fill: #0037da;}
+            .color5 {fill: #881798;}
+            .color6 {fill: #3a96dd;}
+            .color7 {fill: #cccccc;}
+            .color8 {fill: #767676;}
+            .color9 {fill: #e74856;}
+            .color10 {fill: #16c60c;}
+            .color11 {fill: #f9f1a5;}
+            .color12 {fill: #3b78ff;}
+            .color13 {fill: #b4009e;}
+            .color14 {fill: #61d6d6;}
+            .color15 {fill: #f2f2f2;}
+        </style>
+    </defs>
+    <svg id="screen" width="640" height="255" viewBox="0 0 640 255" preserveAspectRatio="xMidYMin slice">
+    <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="32" class="color8">&#9472;&#9472;&#9472; </text><text x="32" textLength="112" font-weight="bold" class="foreground">Scanning drift</text><text x="144" textLength="296" class="color8"> &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</text></g><g id="g2"><text x="0" textLength="8" class="background"> </text></g><g id="g3"><text x="0" textLength="184" class="foreground">  15 source files found</text></g><g id="g4"><text x="0" textLength="32" class="color8">&#9472;&#9472;&#9472; </text><text x="32" textLength="56" font-weight="bold" class="foreground">Results</text><text x="88" textLength="352" class="color8"> &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</text></g><g id="g5"><text x="0" textLength="16" class="foreground">  </text><text x="16" textLength="8" class="color2">&#10003;</text><text x="24" textLength="168" class="foreground"> All 4 checks passed!</text></g><g id="g6"><text x="0" textLength="440" class="color8">&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</text></g><g id="g7"><text x="0" textLength="16" class="foreground">  </text><text x="16" textLength="8" class="color2">&#10003;</text><text x="24" textLength="280" class="foreground"> All 4 checks passed. Drift score: </text><text x="304" textLength="24" font-weight="bold" class="color10">100</text><text x="328" textLength="32" class="foreground">/100</text></g></defs><g id="screen_view"><g><use xlink:href="#g1" y="17"/><rect x="0" y="34" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="34"/></g><g><use xlink:href="#g1" y="289"/><use xlink:href="#g3" y="306"/><rect x="0" y="323" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="323"/></g><g><use xlink:href="#g1" y="561"/><use xlink:href="#g3" y="578"/><use xlink:href="#g4" y="612"/><use xlink:href="#g5" y="629"/><use xlink:href="#g6" y="663"/><use xlink:href="#g7" y="680"/><use xlink:href="#g6" y="697"/><rect x="0" y="731" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="731"/></g></g></svg>
+</svg>

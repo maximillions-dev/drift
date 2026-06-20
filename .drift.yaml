@@ -1,0 +1,25 @@
+# drift — architecture decay detector
+# See https://github.com/maximillions-dev/drift for docs
+
+rules:
+  - rule: "API layer must not import database modules directly"
+    type: forbid_import
+    from: "src/api/**"
+    forbid:
+      - "src/db/**"
+      - "src/models/**"
+
+  - rule: "No circular imports between modules"
+    type: no_circular
+    paths:
+      - "src/**"
+
+  - rule: "Keep source files under 500 lines"
+    type: max_lines
+    path: "src/**"
+    limit: 500
+
+  - rule: "Utils directory should not become a dumping ground"
+    type: max_files
+    path: "src/utils/**"
+    limit: 15
